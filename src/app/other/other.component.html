@@ -12,4 +12,4 @@
 
 <app-another></app-another>
 <app-property-binding [result]="10"></app-property-binding>
-<app-event-binding></app-event-binding>
+<app-event-binding (clicked)="pressedClickButton($event)" ></app-event-binding>
