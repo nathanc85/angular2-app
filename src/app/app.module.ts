@@ -8,6 +8,7 @@ import { OtherComponent } from './other/other.component';
 import { AnotherComponent } from './other/another.component';
 import { PropertyBindingComponent } from './other/property-binding.component';
 import { EventBindingComponent } from './other/event-binding.component';
+import { TwoWayBindingComponent } from './other/two-way-binding.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { EventBindingComponent } from './other/event-binding.component';
     OtherComponent,
     AnotherComponent,
     PropertyBindingComponent,
-    EventBindingComponent
+    EventBindingComponent,
+    TwoWayBindingComponent
   ],
   imports: [
     BrowserModule,
